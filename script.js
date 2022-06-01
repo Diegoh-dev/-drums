@@ -19,3 +19,4 @@ function removeTrasition(e) {
 const keys = document.querySelectorAll(".key");
 keys.forEach((key) => key.addEventListener("transitionend", removeTrasition));
 window.addEventListener("keydown", playSound);
+window.addEventListener("click", playSound);
